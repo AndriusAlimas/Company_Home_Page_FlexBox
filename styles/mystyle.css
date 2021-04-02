@@ -24,10 +24,24 @@ nav{
 .navLinks li{
     display: inline-flex;
     padding: 0 1.5vw;
-    font-size: 1.5rem;
+    
 }
 .navLinks li a{
     text-decoration: none;
     color: brown;
     text-shadow: -2px 2px 3px #b81616;
+    font-family: 'Yatra One', cursive;
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        max-width: 50vw;
+    }
+    .navLinks li a{
+        font-size: 0.9rem;
+    }
 }
