@@ -12,7 +12,22 @@ nav{
     left: 0;
     /* this will make  3 nav section left-logo, center-links, right-social icons links */
     justify-content: space-between;
+    border-bottom: #c3c4c6 1px solid;
+    background-color: #efefef;
 }
 .logo{
-    max-width: 25vw;
+    max-width: 20vw;
+}
+.navLinks{
+    list-style: none;
+}
+.navLinks li{
+    display: inline-flex;
+    padding: 0 1.5vw;
+    font-size: 1.5rem;
+}
+.navLinks li a{
+    text-decoration: none;
+    color: brown;
+    text-shadow: -2px 2px 3px #b81616;
 }
