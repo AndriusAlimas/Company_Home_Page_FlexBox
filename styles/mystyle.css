@@ -1,0 +1,18 @@
+img{
+    max-width: 100%;;
+}
+/* navbar */
+nav{
+    width: 100%;
+    max-height: 22vh;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    /* this will make  3 nav section left-logo, center-links, right-social icons links */
+    justify-content: space-between;
+}
+.logo{
+    max-width: 25vw;
+}
