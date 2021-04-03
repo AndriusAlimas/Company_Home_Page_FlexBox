@@ -34,10 +34,34 @@ nav{
 }
 .navLinks li a{
     text-decoration: none;
-    color: brown;
-    text-shadow: -2px 2px 3px #b81616;
+    /* color: brown; */
+    color:  #dfffaa;
+    text-shadow: -2px 2px 3px #0f1b03;
+    /* text-shadow: -2px 2px 3px #b81616; */
     font-family: 'Yatra One', cursive;
     font-size: 1.1rem;
+}
+/* main section */
+main{
+   
+}
+/* section mission */
+#mission{
+    display: flex;
+    height: 50vh;
+    background-image: url("../img/banner_nature.jpg");
+    background-position: center;
+    background-size: cover;
+   
+}
+#mission .content{
+    text-align: center;
+    font-size: 3em;
+    margin: auto;
+    opacity: 0.7;
+    width: 100%;
+    color:  #dfffaa;
+    text-shadow: -2px 2px 3px #0f1b03;
 }
 /* small screens */
 @media only screen and (max-width: 790px) {
@@ -79,6 +103,9 @@ nav{
     }
     .fa{
         font-size: 4rem;
+      }
+      #mission .content{
+        font-size: 4em;
       }
 }
 
