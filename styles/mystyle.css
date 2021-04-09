@@ -23,11 +23,13 @@ main{
 /* text for descriptions */
 .text{
     font-size: 1.4rem;
-    color: #242222;
-    text-shadow: 1px -1px 2px #242222, 0 0 25px #889389, 0 0 5px #F3D9A8;
+    font-weight: bolder;
+    color: #100026;
+    text-shadow: 1px -1px 2px #E9E9E9, 0 0 25px #889389, 0 0 5px #F3D9A8;
     line-height: 1.8em;
     font-family: 'Indie Flower', cursive;
-    margin: 2rem;
+    margin: 1rem;
+    padding: 1rem;
 }
 
 /* navbar */
@@ -108,10 +110,11 @@ nav{
 /* section mission */
 #mission{
     display: flex;
-    height: 300px;
+    height: 400px;
     background-image: url("../img/banner_nature.jpg");
     background-position: center;
     background-size: cover;
+    margin-top: 12vh;
 }
 #mission .header-content{
     opacity: 0.7;
@@ -140,31 +143,42 @@ nav{
 
 /* other bonus section */
 #other-bonus{
-
+    max-width: 100vw;
 }
 
-#other-bonus > *{
-    
-}
-
-.recycle{
-    background-image: url(../img/Kraft_paper.PNG);
+.recycle, .economical{
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    height: 35vh;
+    background-position: center; 
+}
+.recycle{
+    background-image: url("../img/Kraft_paper.PNG");
+}
+.economical{
+    background-image: url("../img/economical.jpg");
+}
+.bonus-box{
+    min-height: 35vh;
     width: 50vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 5vh;
+}
+.box-shadow{
     border: 1px solid black;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
-
+.big-letter{
+    font-size: 4em;
+}
 /* small screens */
 @media only screen and (max-width: 790px) {
+    #mission{
+        margin-top: 0;
+        height: 500px;
+    }
     #environmental{
         max-width: 100vw;
     }
